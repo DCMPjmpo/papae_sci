@@ -79,10 +79,10 @@ class of mechanistic tools.
 
 This manuscript has not been published elsewhere and is not under
 consideration at another journal. All authors have approved the
-submission. We declare no competing financial interests. All data
-and analysis code are made available through the project repository
-listed in the Data and Code Availability statements (see
-accompanying `data_availability.md` and `code_availability.md`).
+submission. We declare no competing financial interests. All source code used for data processing, SCI computation, permutation
+testing, bootstrap validation, clustering analysis, and figure generation
+is publicly available at
+[https://github.com/DCMPjmpo/papae_sci](https://github.com/DCMPjmpo/papae_sci).
 
 We suggest the following potential reviewers, none of whom have a
 conflict of interest with the authors:

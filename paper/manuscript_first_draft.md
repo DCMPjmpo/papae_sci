@@ -712,8 +712,14 @@ columns are listed in Supplementary Table S2.
 
 ### 4.11 Code and data availability
 
-All analysis scripts are stored under `p6_scripts/` of the project
-repository:
+All source code used for data processing, SCI computation, permutation
+testing, bootstrap validation, clustering analysis, and figure generation
+is publicly available at:
+
+[https://github.com/DCMPjmpo/papae_sci](https://github.com/DCMPjmpo/papae_sci)
+
+The repository contains all scripts necessary to reproduce the analyses
+reported in this study, including:
 `config.py`, `extract_site.py`, `recover_wt_v2.py`,
 `expand_multi_mutations.py`, `merge_data_v2.py`, `P1_build_sci.py`,
 `P1.5_validate_sci_signal.py`, `p0_layer_pair_mining_v2.py`,
@@ -724,7 +730,12 @@ repository:
 `p5_permutation.py`. All intermediate matrices, summary CSVs,
 permutation null distributions
 (`permutation_null_distributions.npz`) and figures are stored under
-`data/processed/` and `data/p0_output/`. The full `p5_permutation.py`
+`data/processed/` and `data/p0_output/`. Analyses were performed with
+Python 3.13 and the following core libraries: numpy (≥1.26), pandas
+(≥2.1), scipy (≥1.12), matplotlib (≥3.8), scikit-learn (≥1.4),
+PyTorch (≥2.0) and fair-esm (≥2.0). Large intermediate data files
+excluded from version control can be regenerated from the provided
+preprocessing pipeline. The full `p5_permutation.py`
 pipeline runs in ≈ 8–10 min single-threaded on a CPU at the
 real-scale (95,142 mutations, 528 layer pairs, 1,000 adaptive
 permutations + 1,000 bootstrap resamples), with peak resident memory

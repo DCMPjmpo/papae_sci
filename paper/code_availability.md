@@ -1,20 +1,15 @@
 # Code Availability
 
-All analysis code used in this study is available through the
-project repository and will be released to a public archive
-(Zenodo / GitHub) with a permanent DOI at the time of acceptance.
+All source code used for data processing, SCI computation, permutation
+testing, bootstrap validation, clustering analysis, and figure generation
+is publicly available at:
 
-## Repository
+[https://github.com/DCMPjmpo/papae_sci](https://github.com/DCMPjmpo/papae_sci)
 
-- **URL** — [https://github.com/<organisation>/<repository>] (to be
-  populated before publication; placeholder retained here for
-  editorial routing).
-- **DOI** — A versioned snapshot of the repository at the time of
-  acceptance will be archived on Zenodo and assigned a DOI. The DOI
-  will replace this placeholder in the final published version.
-- **Licence** — The repository will be released under an
-  OSI-approved open-source licence (MIT or Apache-2.0; final choice
-  to be confirmed before submission).
+The repository contains all scripts necessary to reproduce the analyses
+reported in this study. Large intermediate data files excluded from
+version control can be regenerated from the provided preprocessing
+pipeline.
 
 ## Pipeline scripts
 

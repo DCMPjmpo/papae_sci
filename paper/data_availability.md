@@ -27,9 +27,8 @@ licence at the URL provided in Notin et al., 2023.
 ## Processed data
 
 The following processed datasets generated for this study are
-deposited with the project repository (see Code Availability) and
-will be released to a public archive (Zenodo / Figshare) at the time
-of acceptance:
+publicly available at
+[https://github.com/DCMPjmpo/papae_sci](https://github.com/DCMPjmpo/papae_sci):
 
 - The merged single-substitution table covering all five proteins
   (95,142 rows), including the binarised functional label

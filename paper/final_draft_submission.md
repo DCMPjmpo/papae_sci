@@ -603,16 +603,22 @@ Table S2.
 
 ### 4.11 Code and data availability
 
-All analysis scripts and intermediate matrices, summary tables,
-permutation null distributions and figures are made available through
-the project repository accompanying this submission. Analyses were
-performed with Python 3.13 and the following core libraries:
-numpy (≥1.26), pandas (≥2.1), scipy (≥1.12), matplotlib (≥3.8),
-scikit-learn (≥1.4), PyTorch (≥2.0) and fair-esm (≥2.0). The full
-permutation + bootstrap pipeline runs in ≈ 8–10 min single-threaded on
-a CPU at the real scale (95,142 mutations, 528 layer pairs, 1,000
-adaptive permutations + 1,000 bootstrap resamples), with peak resident
-memory ≈ 410 MB.
+All source code used for data processing, SCI computation, permutation
+testing, bootstrap validation, clustering analysis, and figure generation
+is publicly available at:
+
+[https://github.com/DCMPjmpo/papae_sci](https://github.com/DCMPjmpo/papae_sci)
+
+The repository contains all scripts necessary to reproduce the analyses
+reported in this study. Large intermediate data files excluded from
+version control can be regenerated from the provided preprocessing
+pipeline. Analyses were performed with Python 3.13 and the following
+core libraries: numpy (≥1.26), pandas (≥2.1), scipy (≥1.12),
+matplotlib (≥3.8), scikit-learn (≥1.4), PyTorch (≥2.0) and
+fair-esm (≥2.0). The full permutation + bootstrap pipeline runs in
+≈ 8–10 min single-threaded on a CPU at the real scale (95,142 mutations,
+528 layer pairs, 1,000 adaptive permutations + 1,000 bootstrap resamples),
+with peak resident memory ≈ 410 MB.
 
 ### 4.12 ESM-2 zero-shot LLR baseline
 
