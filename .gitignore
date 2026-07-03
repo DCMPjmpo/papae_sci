@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Large binary data files (> 10 MB)
+data/raw/
+data/p0_5processed/
+data/processed/*.dat
+data/processed/*.npy
+model/hub/
+# Large CSV files (> 50 MB - exceeds GitHub limit)
+data/processed/all_proteins_with_wt.csv
+data/processed/all_proteins_expanded.csv
+
+# Generated figures (can be regenerated)
+figures/*.png
+figures/*.tiff
+figures/*.pdf
+figures/supplementary/
+data/p0_output/**/*.png
+data/p0_output/**/*.pdf
+data/processed/**/*.png
+data/p0_5layer/*.png
+data/p0_5plots/
+figure_assembly/calibration_crops/
+
+# OS
+.DS_Store
+Thumbs.db
